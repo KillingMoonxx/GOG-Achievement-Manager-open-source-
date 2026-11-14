@@ -1,6 +1,6 @@
 # GOG Achievements Manager
 
-A small, open-source Windows tool to browse your GOG library and unlock or lock achievements — with a desktop UI inspired by Steam Achievement Manager, plus a command-line mode for scripting.
+A small, open-source Windows tool to browse your GOG library and unlock or lock achievements with a desktop UI inspired by Steam Achievement Manager, plus a command-line mode for scripting.
 
 This project is intentional and transparent: it only talks to official GOG / GOGDB endpoints, reads the GOG Galaxy refresh token from your local Windows registry, and never downloads extra binaries or phones home.
 
