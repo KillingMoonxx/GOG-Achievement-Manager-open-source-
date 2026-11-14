@@ -4,6 +4,9 @@ A small, open-source Windows tool to browse your GOG library and unlock or lock 
 
 This project is intentional and transparent: it only talks to official GOG / GOGDB endpoints, reads the GOG Galaxy refresh token from your local Windows registry, and never downloads extra binaries or phones home.
 
+You can just download the Exe and it will work https://github.com/KillingMoonxx/GOG-Achievement-Manager-open-source-/releases/tag/v1.0.0
+Disclaimer: This only works if you OWN the game.
+
 ---
 
 ## Features
