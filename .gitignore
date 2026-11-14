@@ -8,13 +8,16 @@
 /gog-achievements-gui
 /GOG Achievements Manager.exe
 
+# Ship finished Windows builds in dist/
+!dist/
+!dist/*.exe
+
 # Runtime / auth caches (contain tokens — never commit)
 auths.json
 products.json
 
 # Go
 bin/
-dist/
 vendor/
 *.test
 *.out
