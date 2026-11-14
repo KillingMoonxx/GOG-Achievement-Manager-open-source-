@@ -1,4 +1,4 @@
-# Built binaries (root only — do not ignore cmd/ source packages)
+# Built binaries — keep only the shipped GUI app tracked
 *.exe
 *.exe~
 *.dll
@@ -7,10 +7,7 @@
 /gog-achievements
 /gog-achievements-gui
 /GOG Achievements Manager.exe
-
-# Ship finished Windows builds in dist/
-!dist/
-!dist/*.exe
+!/GOG-Achievements-Manager.exe
 
 # Runtime / auth caches (contain tokens — never commit)
 auths.json

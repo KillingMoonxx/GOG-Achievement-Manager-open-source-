@@ -42,16 +42,16 @@ You are responsible for complying with GOG’s terms of service. Use at your own
 
 ## Download (Windows)
 
-Ready-to-run builds:
+The app is the file at the root of this repository:
 
-- **GUI (recommended):** [`dist/GOG-Achievements-Manager.exe`](./dist/GOG-Achievements-Manager.exe) — double-click to open the interface
-- **CLI:** [`dist/gog-achievements.exe`](./dist/gog-achievements.exe)
-- Also attached on [GitHub Releases](https://github.com/KillingMoonxx/GOG-Achievement-Manager-open-source-/releases)
+**[`GOG-Achievements-Manager.exe`](./GOG-Achievements-Manager.exe)** — download it, double-click, use the interface.
+
+Also available on [GitHub Releases](https://github.com/KillingMoonxx/GOG-Achievement-Manager-open-source-/releases).
 
 ## Quick start (GUI)
 
 1. Sign in to **GOG Galaxy** on the same Windows account.
-2. Download `GOG-Achievements-Manager.exe` from `dist/` or Releases (or build it — see below).
+2. Download [`GOG-Achievements-Manager.exe`](./GOG-Achievements-Manager.exe).
 3. Run the executable.
 4. Use the search box to find a game in your library.
 5. Click a game card.
@@ -73,9 +73,13 @@ If authentication fails, the window shows a clear error (Galaxy not signed in, r
 
 ---
 
-## CLI usage
+## CLI usage (optional)
 
-Build or download `gog-achievements.exe`.
+The shipped product is the GUI exe above. A CLI is still available if you build from source:
+
+```bat
+go build -o gog-achievements.exe ./cmd/gog-achievements
+```
 
 ### List all owned games
 
