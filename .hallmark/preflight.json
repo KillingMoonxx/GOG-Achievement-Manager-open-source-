@@ -1,0 +1,10 @@
+{
+  "scanned_at": "2026-11-14",
+  "framework": "Go 1.24 + Gio GUI",
+  "font_stack": "none (Hallmark introducing Space Grotesk + Geist + JetBrains Mono)",
+  "palette": "none (Hallmark introducing GOG late-night neon custom)",
+  "motion": "none",
+  "spacing": "none",
+  "preserve": ["internal/ auth+API", "CLI cmd/gog-achievements"],
+  "introduce": ["tokens.css", "Workbench GUI", "Hallmark custom theme"]
+}

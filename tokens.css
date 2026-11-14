@@ -1,0 +1,66 @@
+/* Hallmark · pre-emit critique: P4 H5 E4 S5 R4 V4
+ * Hallmark · genre: atmospheric · macrostructure: Workbench
+ * theme: custom · vibe: "late-night neon" · paper: oklch(14% 0.018 305) · accent: oklch(64% 0.20 305)
+ * display: Space Grotesk · body: Geist · mono: JetBrains Mono
+ * axes: dark / geometric-sans / chromatic-purple ~305°
+ * nav: N13 search-first · footer: Ft2 inline trust · enrichment: none
+ * studied: no · context: explicit · v1.1.0
+ */
+
+:root {
+  /* Colour — GOG late-night neon */
+  --color-paper: oklch(14% 0.018 305);
+  --color-paper-2: oklch(18% 0.020 305);
+  --color-paper-3: oklch(22% 0.022 305);
+  --color-ink: oklch(94% 0.010 305);
+  --color-ink-2: oklch(72% 0.012 305);
+  --color-muted: oklch(52% 0.014 305);
+  --color-rule: oklch(28% 0.020 305);
+  --color-accent: oklch(64% 0.20 305);
+  --color-accent-ink: oklch(14% 0.018 305);
+  --color-focus: oklch(68% 0.22 305);
+  --color-success: oklch(72% 0.14 155);
+  --color-danger: oklch(68% 0.16 25);
+
+  /* Type */
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Geist", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --text-display: 1.75rem;
+  --text-xl: 1.25rem;
+  --text-md: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
+
+  /* Space — 4pt scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --rule-hairline: 1px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-micro: 1ms;
+    --dur-short: 1ms;
+    --dur-long: 120ms;
+  }
+}
